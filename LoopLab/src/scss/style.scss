@@ -1,0 +1,68 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: #333;
+    color: #fff;
+}
+  
+  
+.navbar{
+    border-bottom:2px solid #008ed6;
+    opacity:0.8;
+  }
+
+  #homeSection{
+    background-image: url(../Images/social.jfif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+
+    .dark-overlay{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+
+    .home-inner{
+        padding-top: 150px;
+    }
+
+    .card-form{
+        opacity: 0.8;
+    }
+
+    .fa{
+        color: #008ed6;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+
+  }
+
+
+#exploreSection{
+    .fa{
+        color:#fff;
+        background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+}
+  
+  
